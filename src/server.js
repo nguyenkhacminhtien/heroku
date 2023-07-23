@@ -11,6 +11,6 @@ app.use(bodyParser.json())
 
 routers(app)
 
-app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}`)
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening on port http://localhost:${process.env.PORT}`)
 })
