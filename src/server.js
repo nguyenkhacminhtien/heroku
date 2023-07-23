@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser  from 'body-parser'
 import routers from './routes/router';
-import conFigViewEngine from '../configs/ViewEngine'
+import conFigViewEngine from './configs/ViewEngine'
 const app = express()
 
 require('dotenv').config();
